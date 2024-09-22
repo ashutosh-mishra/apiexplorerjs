@@ -38,7 +38,7 @@ jobs:
 
       - name: Build Project
         run: |
-          cd todo
+          cd ./
           npm run build
 
       - name: Upload artifact to enable deployment
