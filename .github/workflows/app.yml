@@ -48,7 +48,7 @@ jobs:
           path: ./build
 
       - name: Deploy to GitHub Pages
-        uses: /shutosh-mishraactions-gh-pages@v1
+        uses: ashutosh-mishra/actions-gh-pages@v1
         with:
           github_token: ${{ secrets.KEY }} #this is the key of the access token
           publish_dir: ./build
